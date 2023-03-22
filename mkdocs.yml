@@ -47,6 +47,22 @@ use_directory_urls: True
 
 plugins:
   - search
+  - i18n:
+      default_language: !ENV [DEFAULT_LANGUAGE, "en"]
+      default_language_only: !ENV [DEFAULT_LANGUAGE_ONLY, false]
+      docs_structure: suffix
+      languages:
+        default:
+          name: Default (en)
+          build: true
+        cs:
+          name: Czech (cs)
+          build: true
+          site_name: "SVG postprocesor pro Fusion 360"
+      # nav_translations:
+      #   fr:
+      #     Topic1: Sujet1
+      #     Topic2: Sujet2
 
 
 markdown_extensions:
