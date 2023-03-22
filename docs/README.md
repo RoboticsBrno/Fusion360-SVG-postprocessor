@@ -8,9 +8,11 @@ Postprocessor supports laser-width compensation and cutting and engraving modes 
 
 ## Installation
 
-1. Download the file <a href="./Fusion360-SVG-postprocessor.cps" download>Fusion360-SVG-postprocessor.cps</a> and upload it to Fusion 360 `Assets/Post Processors` folder using the upload button.
+1. Download the file <a href="./Fusion360-SVG-CAMPost.cps" download>Fusion360-SVG-CAMPost.cps</a> and upload it to Fusion 360 `Assets/CAMPost` folder using the upload button.
+It will add custom postprocessor to Fusion 360. You will find them in `Select Tool` in `Cloud` section.
 > ![Upload Postprocessor](./media/postprocessor.jpg)
-2. Download the file <a href="./Fusion360-SVG-tools.json" download>Fusion360-SVG-tools.json</a> and upload it to Fusion 360 `Assets/Tools` folder using the upload button.
+1. Download the file <a href="./Fusion360-SVG-CAMTools.json" download>Fusion360-SVG-CAMTools.json</a> and upload it to Fusion 360 `Assets/Tools` folder using the upload button.
+It will add to Fusion default tools for cutting and engraving.
 > ![Upload Tools](./media/tools.jpg)
-1. Go to Fusion 360 `Preferences/Manufacture` and click to `Enable Cloud Libraries`.
+1. Go to Fusion 360 `Preferences/CAMTools` and click to `Enable Cloud Libraries`.
 > ![Enable Cloud Libraries](./media/EnableCloudLibraries.jpg)
