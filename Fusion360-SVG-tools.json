@@ -1,0 +1,145 @@
+{
+    "data": [
+        {
+            "description": "Laser 0.10-red-cut",
+            "geometry": {
+                "CW": 0.1,
+                "JET_HEAD_CLEARANCE": 1,
+                "JET_NOZZLE_DIAMETER": 1
+            },
+            "guid": "1ce0131d-36ff-4121-8415-1f8973385c02",
+            "holder": {
+                "description": "Waterjet Head",
+                "guid": "",
+                "product-id": "",
+                "product-link": "",
+                "segments": [
+                    {
+                        "height": 4.9657,
+                        "lower-diameter": 4.775200000000003,
+                        "upper-diameter": 19.25320000000001
+                    },
+                    {
+                        "height": 1.524,
+                        "lower-diameter": 19.25320000000001,
+                        "upper-diameter": 19.25320000000001
+                    },
+                    {
+                        "height": 2.54,
+                        "lower-diameter": 12.700000000000001,
+                        "upper-diameter": 12.700000000000001
+                    },
+                    {
+                        "height": 17.386300000000002,
+                        "lower-diameter": 25.400000000000002,
+                        "upper-diameter": 31.75000000000001
+                    },
+                    {
+                        "height": 25.400000000000002,
+                        "lower-diameter": 31.75000000000001,
+                        "upper-diameter": 31.75000000000001
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "post-process": {
+                "comment": "nofill rgb(255,0,0)",
+                "diameter-offset": 1,
+                "length-offset": 1,
+                "manual-tool-change": false,
+                "number": 1
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "guid": "fae9bd79-415b-bcbe-ce56-92bd990dbbfa",
+                        "machineQualityControl": "manual",
+                        "name": "Default Preset",
+                        "v_f": 1000,
+                        "v_f_leadIn": 1000,
+                        "v_f_leadOut": 1000
+                    }
+                ]
+            },
+            "type": "laser cutter",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "description": "Laser 0.10-black-grav",
+            "geometry": {
+                "CW": 0.1,
+                "JET_HEAD_CLEARANCE": 1,
+                "JET_NOZZLE_DIAMETER": 1
+            },
+            "guid": "9cc1ed36-d21e-494a-bf34-e35fa8029241",
+            "holder": {
+                "description": "Waterjet Head",
+                "guid": "",
+                "product-id": "",
+                "product-link": "",
+                "segments": [
+                    {
+                        "height": 4.9657,
+                        "lower-diameter": 4.775200000000003,
+                        "upper-diameter": 19.25320000000001
+                    },
+                    {
+                        "height": 1.524,
+                        "lower-diameter": 19.25320000000001,
+                        "upper-diameter": 19.25320000000001
+                    },
+                    {
+                        "height": 2.54,
+                        "lower-diameter": 12.700000000000001,
+                        "upper-diameter": 12.700000000000001
+                    },
+                    {
+                        "height": 17.386300000000002,
+                        "lower-diameter": 25.400000000000002,
+                        "upper-diameter": 31.75000000000001
+                    },
+                    {
+                        "height": 25.400000000000002,
+                        "lower-diameter": 31.75000000000001,
+                        "upper-diameter": 31.75000000000001
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "post-process": {
+                "comment": "fill rgb(0,0,0)",
+                "diameter-offset": 2,
+                "length-offset": 2,
+                "manual-tool-change": false,
+                "number": 2
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "guid": "fae9bd79-415b-bcbe-ce56-92bd990dbbfa",
+                        "machineQualityControl": "manual",
+                        "name": "Default Preset",
+                        "v_f": 1000,
+                        "v_f_leadIn": 1000,
+                        "v_f_leadOut": 1000
+                    }
+                ]
+            },
+            "type": "laser cutter",
+            "unit": "millimeters",
+            "vendor": ""
+        }
+    ],
+    "version": 13
+}
