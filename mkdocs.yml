@@ -1,0 +1,57 @@
+site_name: Fusion 360 SVG postprocessor
+site_url:
+site_author: Jakub Andrýsek
+site_description: >-
+  Project page for SVG postprocessor for Fusion 360 CAM that generates SVG files for laser cutting.
+  Postprocessor supports laser-width compensation and cutting and engraving modes by using different laser tools.
+
+# Repository
+repo_name: RoboticsBrno/Fusion360-SVG-postprocessor
+repo_url: https://github.com/RoboticsBrno/Fusion360-SVG-postprocessor
+
+# Copyright
+copyright: Copyright © 2023 RoboticsBrno
+
+theme:
+  name: material
+  language: en
+  # logo: assets/logo.png
+  # favicon: images/favicon.png
+  features:
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.top
+
+  icon:
+    repo: fontawesome/brands/github
+
+  palette:
+    - scheme: slate
+      primary: orange
+      accent: orange
+
+# extra:
+#   social:
+#     - icon: fontawesome/brands/github
+#       link: https://github.com/JakubAndrysek
+#     - icon: fontawesome/brands/twitter
+#       link: https://twitter.com/KubaAndrysek
+#     - icon: fontawesome/brands/linkedin
+#       link: https://www.linkedin.com/in/jakub-andrysek/
+#    analytics:
+#        provider: google
+#        property: G-XXXXXXXXXX
+
+use_directory_urls: True
+#use_directory_urls: False
+
+plugins:
+  - search
+
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+nav:
+  - Home: 'README.md'
