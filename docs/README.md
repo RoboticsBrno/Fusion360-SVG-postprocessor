@@ -5,11 +5,11 @@
 <img src="https://img.shields.io/github/license/RoboticsBrno/Fusion360-SVG-postprocessor?style=flat-square">
 </p>
 
-Project page for SVG postprocessor for [Fusion 360](https://www.autodesk.cz/products/fusion-360/){target=_blank} CAM that generates SVG files for laser cutting.
+Project page for SVG postprocessor for [Fusion 360](https://www.autodesk.cz/products/fusion-360/) CAM that generates SVG files for laser cutting.
 
 Postprocessor supports laser-width compensation and cutting and engraving modes by using different laser tools.
 
-🔗 Based on [Glowforge post-processor](https://github.com/garethky/glowforge-colorific-fusion360-post){target=_blank} by Glowforge.
+🔗 Based on [Glowforge post-processor](https://github.com/garethky/glowforge-colorific-fusion360-post) by Glowforge.
 
 ## Installation
 
