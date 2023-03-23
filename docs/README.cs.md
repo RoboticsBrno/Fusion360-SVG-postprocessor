@@ -1,10 +1,15 @@
 # ⚙️ Fusion 360 - SVG postprocessor
 
-Stránka projektu pro SVG postprocesor pro Fusion 360 CAM, který generuje SVG soubory pro řezání laserem.
+<p align="center">
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FRoboticsBrno%2FFusion360-SVG-postprocessor&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views&edge_flat=true"/></a>
+<img src="https://img.shields.io/github/license/RoboticsBrno/Fusion360-SVG-postprocessor?style=flat-square">
+</p>
+
+Stránka projektu pro SVG postprocesor pro [Fusion 360](https://www.autodesk.cz/products/fusion-360/){target=_blank} CAM, který generuje SVG soubory pro řezání laserem.
 
 Postprocesor podporuje kompenzaci šířky laseru a režimy řezání a gravírování pomocí různých laserových nástrojů.
 
-🔗 Založeno na projektu [Glowforge post-procesor](https://github.com/garethky/glowforge-colorific-fusion360-post)
+🔗 Založeno na projektu [Glowforge post-procesor](https://github.com/garethky/glowforge-colorific-fusion360-post){target=_blank}.
 
 
 ## Instalace
